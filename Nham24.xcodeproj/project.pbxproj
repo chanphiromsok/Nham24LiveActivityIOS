@@ -7,18 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52894FA52B303B7300BE2010 /* Atrributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52894F9F2B303AD100BE2010 /* Atrributes.swift */; };
+		52894FA62B303B7700BE2010 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52894FA12B303AFE00BE2010 /* StepperView.swift */; };
+		52894FA72B303B7B00BE2010 /* HLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52894FA32B303B1500BE2010 /* HLine.swift */; };
 		529B06852AF885D8002977FF /* Nham24App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529B06842AF885D8002977FF /* Nham24App.swift */; };
 		529B06872AF885D8002977FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529B06862AF885D8002977FF /* ContentView.swift */; };
 		529B06892AF885DA002977FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529B06882AF885DA002977FF /* Assets.xcassets */; };
 		529B068C2AF885DA002977FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529B068B2AF885DA002977FF /* Preview Assets.xcassets */; };
+		529B06992AF885F8002977FF /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529B06982AF885F8002977FF /* WidgetKit.framework */; };
+		529B069B2AF885F8002977FF /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529B069A2AF885F8002977FF /* SwiftUI.framework */; };
+		529B069E2AF885F8002977FF /* OrderFoodWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529B069D2AF885F8002977FF /* OrderFoodWidgetBundle.swift */; };
+		529B06A02AF885F8002977FF /* OrderFoodWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529B069F2AF885F8002977FF /* OrderFoodWidgetLiveActivity.swift */; };
+		529B06A22AF885F8002977FF /* OrderFoodWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529B06A12AF885F8002977FF /* OrderFoodWidget.swift */; };
+		529B06A52AF885FA002977FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529B06A42AF885FA002977FF /* Assets.xcassets */; };
+		529B06A72AF885FA002977FF /* OrderFoodWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 529B06A32AF885F8002977FF /* OrderFoodWidget.intentdefinition */; };
+		529B06A82AF885FA002977FF /* OrderFoodWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 529B06A32AF885F8002977FF /* OrderFoodWidget.intentdefinition */; };
+		529B06AB2AF885FA002977FF /* OrderFoodWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 529B06962AF885F8002977FF /* OrderFoodWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		529B06A92AF885FA002977FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 529B06792AF885D7002977FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 529B06952AF885F8002977FF;
+			remoteInfo = OrderFoodWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		529B06AF2AF885FA002977FF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				529B06AB2AF885FA002977FF /* OrderFoodWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		52894F9F2B303AD100BE2010 /* Atrributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atrributes.swift; sourceTree = "<group>"; };
+		52894FA12B303AFE00BE2010 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		52894FA32B303B1500BE2010 /* HLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLine.swift; sourceTree = "<group>"; };
 		529B06812AF885D8002977FF /* Nham24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nham24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529B06842AF885D8002977FF /* Nham24App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nham24App.swift; sourceTree = "<group>"; };
 		529B06862AF885D8002977FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		529B06882AF885DA002977FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		529B068B2AF885DA002977FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		529B06962AF885F8002977FF /* OrderFoodWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OrderFoodWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		529B06982AF885F8002977FF /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		529B069A2AF885F8002977FF /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		529B069D2AF885F8002977FF /* OrderFoodWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFoodWidgetBundle.swift; sourceTree = "<group>"; };
+		529B069F2AF885F8002977FF /* OrderFoodWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFoodWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		529B06A12AF885F8002977FF /* OrderFoodWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFoodWidget.swift; sourceTree = "<group>"; };
+		529B06A32AF885F8002977FF /* OrderFoodWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = OrderFoodWidget.intentdefinition; sourceTree = "<group>"; };
+		529B06A42AF885FA002977FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		529B06A62AF885FA002977FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +77,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		529B06932AF885F8002977FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529B069B2AF885F8002977FF /* SwiftUI.framework in Frameworks */,
+				529B06992AF885F8002977FF /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				529B06832AF885D8002977FF /* Nham24 */,
+				529B069C2AF885F8002977FF /* OrderFoodWidget */,
+				529B06972AF885F8002977FF /* Frameworks */,
 				529B06822AF885D8002977FF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				529B06812AF885D8002977FF /* Nham24.app */,
+				529B06962AF885F8002977FF /* OrderFoodWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +127,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		529B06972AF885F8002977FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				529B06982AF885F8002977FF /* WidgetKit.framework */,
+				529B069A2AF885F8002977FF /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		529B069C2AF885F8002977FF /* OrderFoodWidget */ = {
+			isa = PBXGroup;
+			children = (
+				52894FA32B303B1500BE2010 /* HLine.swift */,
+				52894FA12B303AFE00BE2010 /* StepperView.swift */,
+				52894F9F2B303AD100BE2010 /* Atrributes.swift */,
+				529B069D2AF885F8002977FF /* OrderFoodWidgetBundle.swift */,
+				529B069F2AF885F8002977FF /* OrderFoodWidgetLiveActivity.swift */,
+				529B06A12AF885F8002977FF /* OrderFoodWidget.swift */,
+				529B06A32AF885F8002977FF /* OrderFoodWidget.intentdefinition */,
+				529B06A42AF885FA002977FF /* Assets.xcassets */,
+				529B06A62AF885FA002977FF /* Info.plist */,
+			);
+			path = OrderFoodWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +162,34 @@
 				529B067D2AF885D8002977FF /* Sources */,
 				529B067E2AF885D8002977FF /* Frameworks */,
 				529B067F2AF885D8002977FF /* Resources */,
+				529B06AF2AF885FA002977FF /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				529B06AA2AF885FA002977FF /* PBXTargetDependency */,
 			);
 			name = Nham24;
 			productName = Nham24;
 			productReference = 529B06812AF885D8002977FF /* Nham24.app */;
 			productType = "com.apple.product-type.application";
+		};
+		529B06952AF885F8002977FF /* OrderFoodWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 529B06AC2AF885FA002977FF /* Build configuration list for PBXNativeTarget "OrderFoodWidgetExtension" */;
+			buildPhases = (
+				529B06922AF885F8002977FF /* Sources */,
+				529B06932AF885F8002977FF /* Frameworks */,
+				529B06942AF885F8002977FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderFoodWidgetExtension;
+			productName = OrderFoodWidgetExtension;
+			productReference = 529B06962AF885F8002977FF /* OrderFoodWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +202,9 @@
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					529B06802AF885D8002977FF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					529B06952AF885F8002977FF = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -116,6 +223,7 @@
 			projectRoot = "";
 			targets = (
 				529B06802AF885D8002977FF /* Nham24 */,
+				529B06952AF885F8002977FF /* OrderFoodWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +238,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		529B06942AF885F8002977FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529B06A52AF885FA002977FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,11 +254,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				529B06872AF885D8002977FF /* ContentView.swift in Sources */,
+				529B06A82AF885FA002977FF /* OrderFoodWidget.intentdefinition in Sources */,
 				529B06852AF885D8002977FF /* Nham24App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		529B06922AF885F8002977FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52894FA72B303B7B00BE2010 /* HLine.swift in Sources */,
+				529B069E2AF885F8002977FF /* OrderFoodWidgetBundle.swift in Sources */,
+				52894FA52B303B7300BE2010 /* Atrributes.swift in Sources */,
+				529B06A22AF885F8002977FF /* OrderFoodWidget.swift in Sources */,
+				529B06A72AF885FA002977FF /* OrderFoodWidget.intentdefinition in Sources */,
+				52894FA62B303B7700BE2010 /* StepperView.swift in Sources */,
+				529B06A02AF885F8002977FF /* OrderFoodWidgetLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		529B06AA2AF885FA002977FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 529B06952AF885F8002977FF /* OrderFoodWidgetExtension */;
+			targetProxy = 529B06A92AF885FA002977FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		529B068D2AF885DA002977FF /* Debug */ = {
@@ -262,6 +401,7 @@
 		529B06902AF885DA002977FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +431,7 @@
 		529B06912AF885DA002977FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,6 +458,60 @@
 			};
 			name = Release;
 		};
+		529B06AD2AF885FA002977FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WFP37U4CG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrderFoodWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OrderFoodWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rom.Nham24.OrderFoodWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		529B06AE2AF885FA002977FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WFP37U4CG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrderFoodWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OrderFoodWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rom.Nham24.OrderFoodWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +529,15 @@
 			buildConfigurations = (
 				529B06902AF885DA002977FF /* Debug */,
 				529B06912AF885DA002977FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		529B06AC2AF885FA002977FF /* Build configuration list for PBXNativeTarget "OrderFoodWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529B06AD2AF885FA002977FF /* Debug */,
+				529B06AE2AF885FA002977FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
